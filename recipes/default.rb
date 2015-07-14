@@ -9,4 +9,4 @@ mysql_service 'foo' do
   action [:create, :start]
 end
 
-log "Apache2 succesfully installed!"
+log "Recipe run completed."
